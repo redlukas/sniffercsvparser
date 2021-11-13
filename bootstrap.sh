@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#start with curl -s https://raw.githubusercontent.com/redlukas/sniffercsvparser/master/bootstrap.sh?token=ABQPI7H57ENJVZ4YZPK4Y43BSARSW | bash
+#start with curl -s https://raw.githubusercontent.com/redlukas/sniffercsvparser/master/bootstrap.sh | bash
 
 echo "Enter your zerotier network ID"
 read -p -r zerotierid;
