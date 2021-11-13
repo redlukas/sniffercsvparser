@@ -1,7 +1,10 @@
 #!/bin/bash
 
+#start with curl -s https://raw.githubusercontent.com/redlukas/sniffercsvparser/master/bootstrap.sh?token=ABQPI7H57ENJVZ4YZPK4Y43BSARSW | bash
+
 echo "Enter your zerotier network ID"
-read -r zerotierid
+read -p -r 'Type something and hit space: ' '-d zerotierid';
+echo "The zerotier ID is ${zerotierid}"
 
 #update the system
 sudo -u root -H sh -c "apt update"
