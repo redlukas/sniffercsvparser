@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#start with curl -s https://raw.githubusercontent.com/redlukas/sniffercsvparser/master/bootstrap.sh | bash
+#start with curl https://raw.githubusercontent.com/redlukas/sniffercsvparser/master/bootstrap.sh | bash
 
 echo "Enter your zerotier network ID"
 read -p -r zerotierid;
@@ -18,7 +18,7 @@ echo "${DV_SAVE}" | sudo tee /etc/debian_version >/dev/null
 
 
 #install docker
-sudo -u root -H sh -c "install docker.io -y"
+sudo -u root -H sh -c "apt install docker.io -y"
 sudo -u root -H sh -c "systemctl enable docker --now"
 
 #run the container

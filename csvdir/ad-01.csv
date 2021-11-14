@@ -1,6 +1,6 @@
 
 BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
-AB:CD:EF:12:34:56, 2021-11-03 13:45:45, 2021-11-03 13:49:21,  1, 195, WPA2, CCMP, PSK, -76,       36,        0,   0.  0.  0.  0,  11, hello,
+AB:CD:EF:12:34:55, 2021-11-03 13:45:45, 2021-11-03 13:49:21,  1, 195, WPA2, CCMP, PSK, -76,       36,        0,   0.  0.  0.  0,  11, hello,
 
 Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
 00:11:22:33:44:55, 2021-11-03 13:45:23, 2021-11-03 13:49:24, -53,      204, 66:77:88:99:AA:BB,world
